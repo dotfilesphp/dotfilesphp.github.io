@@ -1,0 +1,29 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Quick Start\n\n\nInstallation\n\n\n\n$ wget -c https://dotfilesphp.github.io/latest.phar > dotfiles",
+            "title": "Quick Start"
+        },
+        {
+            "location": "/#quick-start",
+            "text": "",
+            "title": "Quick Start"
+        },
+        {
+            "location": "/#installation",
+            "text": "$ wget -c https://dotfilesphp.github.io/latest.phar > dotfiles",
+            "title": "Installation"
+        },
+        {
+            "location": "/plugins/",
+            "text": "Plugins Here",
+            "title": "Plugins Here"
+        },
+        {
+            "location": "/plugins/#plugins-here",
+            "text": "",
+            "title": "Plugins Here"
+        }
+    ]
+}

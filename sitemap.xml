@@ -3,18 +3,60 @@
 
     
     <url>
-     <loc>/</loc>
-     <lastmod>2018-04-15</lastmod>
+     <loc>https://dotfilesphp.github.io//</loc>
+     <lastmod>2018-04-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
+        
     <url>
-     <loc>/plugins/</loc>
-     <lastmod>2018-04-15</lastmod>
+     <loc>https://dotfilesphp.github.io//features/patch/</loc>
+     <lastmod>2018-04-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>https://dotfilesphp.github.io//features/hooks/</loc>
+     <lastmod>2018-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://dotfilesphp.github.io//plugins/bash/</loc>
+     <lastmod>2018-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://dotfilesphp.github.io//plugins/composer/</loc>
+     <lastmod>2018-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://dotfilesphp.github.io//plugins/nvm/</loc>
+     <lastmod>2018-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://dotfilesphp.github.io//plugins/phpcs/</loc>
+     <lastmod>2018-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://dotfilesphp.github.io//plugins/phpbrew/</loc>
+     <lastmod>2018-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
 </urlset>

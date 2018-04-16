@@ -2,28 +2,73 @@
     "docs": [
         {
             "location": "/",
-            "text": "Quick Start\n\n\nInstallation\n\n\n\n$ wget -c https://dotfilesphp.github.io/latest.phar > dotfiles",
+            "text": "Features\n\n\nOur goal is to help you make \none dotfiles backup\n for every machine.\nHere's some feature available in dotfiles manager: \n\n\n\n\nEasy setup and configuration.\n\n\nBackup and restore based on spesific machine.\n\n\nWith \npatch\n you can customize your dotfiles for every machine.\n\n\nWith \nhooks\n you can define command like adding ssh keys or\n   gpg account into your favorite shell script, and have them executed\n   during restore process.\n   so you can your ssh key  or gpg key into your account\n\n\nIf you want you can even test your dotfiles backup in docker\n   and have phpunit or behat to do tests.\n\n\nPlugins can help you install/restore command line application like\n   \ncomposer\n or \nnvm\n.\n\n\n\n\nInstallation\n\n\nwget -c https://dotfilesphp.github.io/latest.phar > dotfiles\nchmod +x dotfiles\n# Move dotfiles to somewhere can be found by your $PATH\nmv dotfiles /home/your-username/bin\n\n\n\n\nInitiallize your dotfiles installation:\n\n\ndotfiles init\nPlease enter local backup dir: $HOME/dotfiles-backup\nPlease enter your machine name: $HOSTNAME\nPlease enter your install dir: $HOME/.dotfiles\n\n\n\n\nUsing dotfiles\n\n\nDotfiles Shell\n\n\nExecuting dotfiles without using any argument will bring you into dotfiles shell:\n\n\ncd $HOME/dotfiles-backup\ndotfiles\n\n\n\n\nThe command will creating output like:\n\n\nWelcome to the dotfiles.\n\nAt the prompt, type help for some help,\nor list to get a list of available commands.\n\nTo exit the shell, type ^D.\n\ndotfiles>>\n\n\n\n\nTo exit shell just press \nCtrl+d\n key.\n\n\nStart Backup\n\n\nStart backup your dotfiles by using dotfiles shell:\n\n\n\n# display how to use add command\ndotfiles>> help add\n\n# add .bash rc file\ndotfiles>> add .bashrc \n\n# add .ssh directory but only for this machine\n# (you must use -r option to add directory)\ndotfiles>> add .ssh -m -r\n\n\n\n\nCommit your dotfiles backup into git repo:\n\n\ncd /path/to/backup\ngit init\ngit add . -A\ngit commit -am \"initial backup\"\n\n\n\n\nRestore your dotfiles\n\n\nUse dotfiles \nrestore\n command to restore your dotfiles backup:\n\n\ndotfiles restore",
             "title": "Quick Start"
         },
         {
-            "location": "/#quick-start",
-            "text": "",
-            "title": "Quick Start"
+            "location": "/#features",
+            "text": "Our goal is to help you make  one dotfiles backup  for every machine.\nHere's some feature available in dotfiles manager:    Easy setup and configuration.  Backup and restore based on spesific machine.  With  patch  you can customize your dotfiles for every machine.  With  hooks  you can define command like adding ssh keys or\n   gpg account into your favorite shell script, and have them executed\n   during restore process.\n   so you can your ssh key  or gpg key into your account  If you want you can even test your dotfiles backup in docker\n   and have phpunit or behat to do tests.  Plugins can help you install/restore command line application like\n    composer  or  nvm .",
+            "title": "Features"
         },
         {
             "location": "/#installation",
-            "text": "$ wget -c https://dotfilesphp.github.io/latest.phar > dotfiles",
+            "text": "wget -c https://dotfilesphp.github.io/latest.phar > dotfiles\nchmod +x dotfiles\n# Move dotfiles to somewhere can be found by your $PATH\nmv dotfiles /home/your-username/bin  Initiallize your dotfiles installation:  dotfiles init\nPlease enter local backup dir: $HOME/dotfiles-backup\nPlease enter your machine name: $HOSTNAME\nPlease enter your install dir: $HOME/.dotfiles",
             "title": "Installation"
         },
         {
-            "location": "/plugins/",
-            "text": "Plugins Here",
-            "title": "Plugins Here"
+            "location": "/#using-dotfiles",
+            "text": "",
+            "title": "Using dotfiles"
         },
         {
-            "location": "/plugins/#plugins-here",
+            "location": "/#dotfiles-shell",
+            "text": "Executing dotfiles without using any argument will bring you into dotfiles shell:  cd $HOME/dotfiles-backup\ndotfiles  The command will creating output like:  Welcome to the dotfiles.\n\nAt the prompt, type help for some help,\nor list to get a list of available commands.\n\nTo exit the shell, type ^D.\n\ndotfiles>>  To exit shell just press  Ctrl+d  key.",
+            "title": "Dotfiles Shell"
+        },
+        {
+            "location": "/#start-backup",
+            "text": "Start backup your dotfiles by using dotfiles shell:  \n# display how to use add command\ndotfiles>> help add\n\n# add .bash rc file\ndotfiles>> add .bashrc \n\n# add .ssh directory but only for this machine\n# (you must use -r option to add directory)\ndotfiles>> add .ssh -m -r  Commit your dotfiles backup into git repo:  cd /path/to/backup\ngit init\ngit add . -A\ngit commit -am \"initial backup\"",
+            "title": "Start Backup"
+        },
+        {
+            "location": "/#restore-your-dotfiles",
+            "text": "Use dotfiles  restore  command to restore your dotfiles backup:  dotfiles restore",
+            "title": "Restore your dotfiles"
+        },
+        {
+            "location": "/features/patch/",
             "text": "",
-            "title": "Plugins Here"
+            "title": "Patch"
+        },
+        {
+            "location": "/features/hooks/",
+            "text": "",
+            "title": "Hooks"
+        },
+        {
+            "location": "/plugins/bash/",
+            "text": "",
+            "title": "Bash"
+        },
+        {
+            "location": "/plugins/composer/",
+            "text": "",
+            "title": "Composer"
+        },
+        {
+            "location": "/plugins/nvm/",
+            "text": "",
+            "title": "NVM"
+        },
+        {
+            "location": "/plugins/phpcs/",
+            "text": "",
+            "title": "PHP CS Fixer"
+        },
+        {
+            "location": "/plugins/phpbrew/",
+            "text": "",
+            "title": "PHPBrew"
         }
     ]
 }

@@ -1,3 +1,32 @@
 site_name: Dotfiles Manager
+site_url: https://dotfilesphp.github.io/
+repo_url: https://github.com/dotfilesphp/dotfiles/
+remote_branch: master
+remote_name: origin
+docs_dir: pages
+
 theme:
     name: 'material'
+#google_analytics:
+#  - UA-XXXXXXXX-Y
+#  - auto
+#
+pages:
+    - 'Quick Start': index.md
+    - 'Features':
+        - 'Patch': features/patch.md
+        - 'Hooks': features/hooks.md
+    - 'Plugins':
+        - 'Bash': plugins/bash.md
+        - 'Composer': plugins/composer.md
+        - 'NVM': plugins/nvm.md
+        - 'PHP CS Fixer': plugins/phpcs.md
+        - 'PHPBrew': plugins/phpbrew.md
+
+markdown_extensions:
+    #- fenced_code
+    #- codehilite(css_class=code)
+extra_css:
+  - css/prism.css
+extra_javascript:
+  - js/prism.js
